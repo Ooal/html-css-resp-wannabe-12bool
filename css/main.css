@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*debug*/
+[class*="col-"] {
+
+}
+
+.centro {
+text-align: center;
+}
+
+img {
+  height: 200px;
+}
+
+.grigio {
+  background-color: #f9f9f9;
+}
+
+p {
+padding-bottom: 40px;
+}
+
+h2 {
+padding: 40px 0 ;
+}
+
+h3{
+padding: 20px 0 ;
+}
+
+.blu {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  img {
+  height: auto;
+  width: 50vw;
+}
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+img {
+  height: 100px;
+}
+
+}
